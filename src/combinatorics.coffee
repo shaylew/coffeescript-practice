@@ -39,7 +39,7 @@ combinatorics.combinations = (array, r) ->
         for [combination, unused] from combinatorics.combinations rest, r
             yield [combination, [first, unused...]]
 
-# Yield all even-ish divisions of an array into groups, with each group matching
+# Yield all valid divisions of an array into groups, with each group satisfying
 # `predicate`. The `sizes` array specifies the number of elements to put in its
 # corresponding group.
 #
