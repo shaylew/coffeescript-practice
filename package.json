@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "build": "coffee --compile --output lib/ src/",
-    "exec": "node lib/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "demo": "node lib/main.js"
   },
   "author": "",
   "license": "ISC",
